@@ -1,6 +1,7 @@
 BloGGing CenteR
 Платформа для ведения тематических блогов.
 
+Папка Project/ создана для документов (ее не обязательно добавлять с папками проекта)
 Проверка результатов: https://docs.google.com/spreadsheets/d/1n_S58MZZfVKRg1aMpdrzWe29fnXVAYm5FGwkpO8Lnsk/edit?gid=0#gid=0
 
 Установка и запуск
