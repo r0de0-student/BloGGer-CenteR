@@ -9,7 +9,7 @@ $userRole = $isLoggedIn ? $_SESSION['role'] : '';
 
 <!-- Блок приветствия -->
 <div style="
-    background: linear-gradient(135deg, #008cff 0%, #0055cc 100%);
+    background: #007bff;
     border-radius: 20px;
     padding: 40px;
     margin-bottom: 30px;

@@ -78,7 +78,6 @@
         <a href="<?= BASE_PATH ?>/?action=home">🏠 Главная</a>
         <?php if (isset($_SESSION['user_id'])): ?>
             <a href="<?= BASE_PATH ?>/?action=my-blog">📝 Мой блог</a>
-            <a href="<?= BASE_PATH ?>/?action=all-blogs">📚 Все блоги</a>
             <a href="<?= BASE_PATH ?>/?action=reports">📊 Отчёты</a>
             <?php if ($_SESSION['role'] == 'admin'): ?>
                 <a href="<?= BASE_PATH ?>/?action=admin-users">👑 Админка</a>
