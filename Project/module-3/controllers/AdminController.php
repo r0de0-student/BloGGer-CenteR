@@ -12,7 +12,6 @@ class AdminController {
     public function users() {
         // Защита: только администратор
         requireAdmin();
-        
         $users = $this->userModel->getAll();
         require_once __DIR__ . '/../views/admin/users.php';
     }
@@ -23,7 +22,6 @@ class AdminController {
     public function toggleBlock($id) {
         // Защита: только администратор
         requireAdmin();
-        
         $this->userModel->toggleBlock($id);
         $_SESSION['success'] = "Статус пользователя изменён";
         header('Location: ' . BASE_PATH . '/?action=admin-users');
