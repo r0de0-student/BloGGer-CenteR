@@ -43,13 +43,6 @@
             <a href="<?= BASE_PATH ?>/?action=register" style="color: #667eea; text-decoration: none; font-weight: bold;">Зарегистрироваться</a>
         </p>
     </div>
-    
-    <div style="background: #f8f9fa; border-radius: 10px; padding: 15px; margin-top: 30px; text-align: center;">
-        <p style="margin: 0 0 10px 0; font-weight: bold; color: #333;">📋 Тестовые аккаунты</p>
-        <p style="margin: 5px 0; font-size: 13px; color: #666;">👑 Админ: admin@blog.com / password</p>
-        <p style="margin: 5px 0; font-size: 13px; color: #666;">✍️ Автор: john@blog.com / password</p>
-        <p style="margin: 5px 0; font-size: 13px; color: #666;">📖 Читатель: mike@blog.com / password</p>
-    </div>
 </div>
 
 <?php include __DIR__ . '/../footer.php'; ?>
