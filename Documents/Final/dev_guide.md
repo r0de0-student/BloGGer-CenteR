@@ -265,9 +265,9 @@ public function users() {
 
 ### Примеры кода
 
-![Контроллеры](C:\xampp\htdocs\blogger-center\Project\controllers)
-![Модели](C:\xampp\htdocs\blogger-center\Project\models)
-![Представления](C:\xampp\htdocs\blogger-center\Project\views)
+![Контроллеры](../Assets/controllers.png)
+![Модели](../Assets/models.png)
+![Представления](../Assets/views.png)
 
 ### Полезные команды
 
@@ -309,9 +309,11 @@ docker system prune -a
 
 ### Контакты
 При возникновении вопросов обращайтесь к разработчику:
+
 Автор: Гармонов Родион Андреевич (ПИб-242)
+
 GitHub: r0de0-student
 
 ---
 
-Документация актуальна для версии 1.0.0
+*Документация актуальна для версии 1.0.0*
