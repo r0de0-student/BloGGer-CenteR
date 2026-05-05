@@ -145,10 +145,12 @@ $pass = getenv('DB_PASS') ?: '';
 ```
 
 4. Mедленная работа Docker на Windows
+```txt
 Решение: Включите WSL2 в настройках Docker Desktop:
 1.Откройте Docker Desktop → Settings
 2.Выберите Resources → WSL Integration
 3.Включите интеграцию с вашим дистрибутивом WSL
+```
 
 
 
